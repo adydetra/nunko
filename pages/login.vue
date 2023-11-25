@@ -1,3 +1,10 @@
+<script lang="ts" setup>
+const layout = "col-span-2 flex items-center justify-center";
+function afterLogin() {
+  navigateTo("/profile");
+}
+</script>
+
 <template>
   <section class="grid grid-cols-4 min-h-screen">
     <div :class="layout">
@@ -9,10 +16,3 @@
     <div :class="layout"><hanko-auth @onAuthFlowCompleted="afterLogin()" /></div>
   </section>
 </template>
-
-<script setup lang="ts">
-const layout = "col-span-2 flex items-center justify-center";
-function afterLogin() {
-  navigateTo("/profile");
-}
-</script>
