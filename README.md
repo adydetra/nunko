@@ -21,7 +21,10 @@ Install package manager
 pnpm install
 ```
 
-if not using `pnpm` just delete `pnpm-lock.yaml`, and switch to another package manager like:
+---
+
+> [!NOTE]
+> if not using `pnpm` just delete `pnpm-lock.yaml`, and switch to another package manager like:
 
 ```bash
 # npm install
