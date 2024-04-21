@@ -10,13 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.0.6",
-    "nuxt": "^3.9.0",
-    "vue": "^3.3.13",
-    "vue-router": "^4.2.5"
+    "@nuxt/devtools": "^1.2.0",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.23",
+    "vue-router": "^4.3.2"
   },
   "dependencies": {
-    "@nuxtjs/hanko": "^0.5.0",
-    "@nuxtjs/tailwindcss": "^6.10.1"
+    "@nuxtjs/hanko": "^0.6.0",
+    "@nuxtjs/tailwindcss": "^6.12.0"
   }
 }
