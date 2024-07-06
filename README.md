@@ -2,7 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/license-MIT-brightgreen?label=LICENSE)
 
-Nunko is a web development project that combines the Nuxt x Hanko to create a secure and user-friendly authentication experience.
+Nunko is a web development project that combines the `Nuxt` x `Hanko` to create a secure and user-friendly authentication experience.
 
 ![preview](/public/preview.png)
 
